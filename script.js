@@ -51,6 +51,8 @@ if (isValid = true) {
         const messages = document.getElementById('form-feedback');
         messages.innerHTML += '<br>';
     }
-    document.getElementById('form-feedback').style.color = #dc3545;
+    feedbackDiv .style.display = block;
+    feedbackDiv .style.color = #dc3545;
 }
 });
+
